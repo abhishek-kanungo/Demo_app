@@ -1,0 +1,13 @@
+<h2>New Project</h2>
+<h3><%= link_to "Back", users_path  %></h3>
+<%= form_for(@users) do |f| %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+    <%= f.submit %>
+<% end %>
+
