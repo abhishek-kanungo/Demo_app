@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   def create
     @users = User.new(project_params)
     if @users.save
-      flash[:notice] = "User has been created."
+      flash[:notice] = "Users has been created."
       redirect_to @users
     else
 # nothing, yet
