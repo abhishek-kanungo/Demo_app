@@ -3,6 +3,9 @@
   "scripts": {
   },
   "env": {
+    "blog_DATABASE_PASSWORD": {
+      "required": true
+    },
     "LANG": {
       "required": true
     },
